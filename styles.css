@@ -191,7 +191,6 @@ a:link {
 .stay-productive {
   width: 100%;
   height: auto;
-  background-color: palevioletred;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -200,41 +199,161 @@ a:link {
 .stay-productive-img {
   width: 304px;
   height: 230px;
-  background-color: silver;
-  border: 1px solid black;
+  margin: 60px 0 40px 0;
+}
+.stay-productive-img img {
+  width: 100%;
 }
 
 .stay-productive-content {
   width: 320px;
-  height: 181px;
-  background-color: silver;
-  border: 1px solid black;
+  height: auto;
+  color: white;
 }
 
+.stay-productive-content h3 {
+  margin-bottom: 20px;
+}
+
+.stay-productive-content p {
+  margin: 20px 0;
+}
+
+.stay-productive-content a {
+  color: hsl(176, 68%, 64%);
+  text-decoration: none;
+}
+.how-fylo-works-link {
+  margin-bottom: 50px;
+}
+
+.how-fylo-works-link p {
+  display: flex;
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+}
+.how-fylo-works-link img {
+  margin-left: 5px;
+}
+
+.how-fylo-works-link hr {
+  width: 45%;
+  border: 1px solid hsl(176, 68%, 64%);
+}
+.quote {
+  width: 280px;
+}
+.quote-icon {
+  width: 20px;
+  align-self: flex-start;
+  margin-bottom: -5px;
+}
 .testimonials {
   width: 100%;
   height: auto;
-  background-color: pink;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
+}
+.testimonials p:first-child {
+  font-size: 0.7rem;
+  width: 90%;
 }
 .testimonial1,
 .testimonial2,
 .testimonial3 {
   height: 160px;
   width: 280px;
-  border: 1px solid black;
-  margin-top: 10px;
+  background-color: hsl(219, 30%, 18%);
+  /* margin-top: 10px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 25px;
 }
 
+.testimonial3 {
+  margin-bottom: 50px;
+}
+.profile-details {
+  display: flex;
+  margin-top: 20px;
+}
+
+.profile-details img {
+  width: 10%;
+  border-radius: 50%;
+}
+.profile-headers {
+  margin-left: 10px;
+}
+.profile-headers h6 {
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+}
+.profile-headers p {
+  font-size: 0.5rem;
+  letter-spacing: 1px;
+}
 .signup-form {
-  width: 100%;
-  height: 353px;
-  background-color: rebeccapurple;
+  background-color: hsl(217, 28%, 15%);
+  width: 90%;
+  height: 300px;
+  color: white;
+}
+.signup-form h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 30px;
+}
+.signup-form p {
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.5rem;
+  padding: 0 20px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form-input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
 }
 
+.form-input input {
+  width: 80%;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  margin: 20px 0 20px 0;
+}
+
+.form-input button {
+  width: 80%;
+  height: 40px;
+  border-radius: 100px;
+  border: none;
+  background-image: linear-gradient(
+    to right,
+    hsl(176, 68%, 64%),
+    hsl(198, 60%, 50%)
+  );
+  color: white;
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: rgb(173, 173, 173);
+  font-size: 0.7rem;
+  padding-left: 20px;
+}
 .footer {
   width: 100%;
   height: auto;
