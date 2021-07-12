@@ -160,7 +160,7 @@ a:link {
 .icon-group {
   width: 100%;
   height: auto;
-  background-color: orange;
+  background-color: hsl(218, 28%, 13%);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -169,9 +169,24 @@ a:link {
 
 .icons {
   width: 320px;
-  height: 250px;
-  background-color: seagreen;
-  border: 1px solid black;
+  height: 300px;
+  background-color: hsl(218, 28%, 13%);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons img {
+  width: 20%;
+  padding-bottom: 30px;
+}
+.icons h3 {
+  padding-bottom: 20px;
+}
+.icons p {
+  text-align: center;
 }
 .stay-productive {
   width: 100%;
@@ -251,7 +266,7 @@ a:link {
   .icon-group {
     width: 100%;
     height: auto;
-    background-color: orange;
+    background-color: hsl(218, 28%, 13%);
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -260,8 +275,7 @@ a:link {
   .icons {
     width: 50%;
     height: 250px;
-    background-color: seagreen;
-    border: 1px solid black;
+    background-color: hsl(218, 28%, 13%);
   }
 }
 
@@ -289,8 +303,7 @@ a:link {
   .icons {
     width: 50%;
     height: 250px;
-    background-color: seagreen;
-    border: 1px solid black;
+    background-color: hsl(218, 28%, 13%);
   }
   .stay-productive {
     display: flex;
