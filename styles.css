@@ -354,10 +354,71 @@ a:link {
   font-size: 0.7rem;
   padding-left: 20px;
 }
+.footer-logo img {
+  width: 120px;
+  margin-left: 30px;
+  margin-top: 60px;
+}
 .footer {
   width: 100%;
   height: auto;
-  background-color: salmon;
+  color: white;
+  /* display: flex;
+  flex-direction: column; */
+}
+.footer-contact-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 250px;
+  width: 80%;
+  margin-left: 30px;
+}
+.footer-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-contact img {
+  margin-right: 20px;
+}
+.footer-contact p {
+  line-height: 1.5rem;
+}
+.footer-tel {
+  display: flex;
+}
+.footer-tel img {
+  margin-right: 20px;
+}
+.footer-email {
+  display: flex;
+}
+.footer-email img {
+  margin-right: 20px;
+}
+.footer-nav-1 a,
+.footer-nav-2 a {
+  text-decoration: none;
+  color: white;
+  margin-left: 30px;
+}
+
+.footer-nav-1 {
+  margin: 30px 0 50px 0;
+}
+
+.footer-nav-1 li,
+.footer-nav-2 li {
+  margin: 15px 0;
+}
+.social-media {
+  color: white;
+}
+
+.social-media i {
+  font-size: 1.2rem;
+  margin: 30px 20px 20px 0;
 }
 /* FOOTER TEXT */
 
